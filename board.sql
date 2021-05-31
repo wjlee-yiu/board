@@ -5,7 +5,7 @@ create table member (
   pw varchar(20) not null,
   name varchar(40) not null,
   email varchar(40) not null
-)
+);
 
 create table bbs (
   bbsid int auto_increment primary key,
@@ -15,5 +15,4 @@ create table bbs (
   bbshit int default 0,
   bbscategoty varchar(40),
   id varchar(20)
-  );
-)
+);
