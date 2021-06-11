@@ -16,3 +16,4 @@ create table bbs (
   bbscategoty varchar(40),
   id varchar(20)
 );
+ 
